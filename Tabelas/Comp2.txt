@@ -1,0 +1,7 @@
+Ponto	Coleta	
+Control_BSB	Control	
+Control_VC	Control	
+Control_SAL	Control	
+Airport_BSB	Treatment 	
+Airport_VC	Treatment 	
+Airport_SAL	Treatment 	

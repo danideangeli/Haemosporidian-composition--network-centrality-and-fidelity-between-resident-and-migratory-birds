@@ -1,0 +1,33 @@
+> permutest(mod.coleta1, pairwise = T, permutations = 999)
+
+Permutation test for homogeneity of multivariate dispersions
+Permutation: free
+Number of permutations: 999
+
+Response: Distances
+          Df   Sum Sq    Mean Sq      F N.Perm Pr(>F)
+Groups     1 0.000212 0.00021174 0.0745    999  0.788
+Residuals 12 0.034095 0.00284123                     
+
+Pairwise comparisons:
+(Observed p-value below diagonal, permuted p-value above diagonal)
+       R     M
+R        0.791
+M 0.7895      
+> permutest(mod.coleta, pairwise = T, permutations = 999)
+
+Permutation test for homogeneity of multivariate dispersions
+Permutation: free
+Number of permutations: 999
+
+Response: Distances
+          Df   Sum Sq   Mean Sq     F N.Perm Pr(>F)
+Groups     2 0.003365 0.0016823 0.783    999  0.457
+Residuals 16 0.034376 0.0021485                    
+
+Pairwise comparisons:
+(Observed p-value below diagonal, permuted p-value above diagonal)
+         R       M    PM
+R          0.15800 0.849
+M  0.15543         0.331
+PM 0.86667 0.32263 
